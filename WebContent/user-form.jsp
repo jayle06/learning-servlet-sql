@@ -15,7 +15,7 @@
 		<nav class="navbar navbar-expand-md navbar-dark"
 			style="background-color: tomato">
 			<div>
-				<a href="https://www.javaguides.net" class="navbar-brand"> User
+				<a href="<%=request.getContextPath()%>/list" class="navbar-brand"> User
 					Management App </a>
 			</div>
 

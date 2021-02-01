@@ -17,7 +17,7 @@ public class User {
 		this.country = country;
 	}
 
-	public User(Integer id, String name, String email, String country) {
+	public User(int id, String name, String email, String country) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -25,11 +25,13 @@ public class User {
 		this.country = country;
 	}
 
-	public Integer getId() {
+
+
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -53,7 +55,7 @@ public class User {
 		return country;
 	}
 
-	public void setContry(String country) {
+	public void setCountry(String country) {
 		this.country = country;
 	}
 	
